@@ -5,6 +5,9 @@
 #
 # Generated on: 3/21/2016
 #
+# Updated by Doug Roorda
+#
+# Updated on 7/1/2018
 
 @{
 
@@ -18,7 +21,7 @@ ModuleVersion = '2.0.0'
 GUID = '6792caca-e1b3-4a6b-b1bc-979f9935e95f'
 
 # Author of this module
-Author = 'Adam Platt'
+Author = 'Doug Roorda'
 
 # Company or vendor of this module
 CompanyName = ' '
@@ -66,14 +69,35 @@ FormatsToProcess = @()
 NestedModules = @()
 
 # Functions to export from this module
-FunctionsToExport = 'Disable-EmailLog', 'Disable-EventLogLog', 'Disable-FileLog', 
-               'Disable-HostLog', 'Disable-PassThruLog', 'Enable-EmailLog', 
-               'Enable-EventLogLog', 'Enable-FileLog', 'Enable-HostLog', 
-               'Enable-PassThruLog', 'Send-EmailLog', 'Start-EmailLog', 
-               'Start-EventLogLog', 'Start-FileLog', 'Start-HostLog', 
-               'Start-PassThruLog', 'Start-SlackLog', 'Stop-EmailLog', 
-               'Stop-EventLogLog', 'Stop-FileLog', 'Stop-HostLog', 'Stop-PassThruLog', 
-               'Stop-SlackLog', 'Write-Log'
+FunctionsToExport = 'Disable-EmailLog', 
+                    'Disable-EventLogLog', 
+                    'Disable-FileLog', 
+                    'Disable-HostLog', 
+                    'Disable-PassThruLog', 
+                    'Enable-EmailLog', 
+                    'Enable-EventLogLog', 
+                    'Enable-FileLog', 
+                    'Enable-HostLog', 
+                    'Enable-PassThruLog', 
+                    'Send-EmailLog', 
+                    'Start-EmailLog', 
+                    'Start-EventLogLog', 
+                    'Start-FileLog', 
+                    'Start-HostLog', 
+                    'Start-PassThruLog', 
+                    'Start-SlackLog', 
+                    'Stop-EmailLog', 
+                    'Stop-EventLogLog', 
+                    'Stop-FileLog', 
+                    'Stop-HostLog', 
+                    'Stop-PassThruLog', 
+                    'Stop-SlackLog', 
+                    'Write-Log',
+                    'Write-LogVerbose',
+                    'Write-LogError',
+                    'Write-LogWarning',
+                    'Write-LogHost',
+                    'Write-LogOutput'
 
 # Cmdlets to export from this module
 CmdletsToExport = @()
@@ -105,7 +129,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/platta/PSMultiLog'
+        ProjectUri = 'https://github.com/droorda/PSMultiLog'
 
         # A URL to an icon representing this module.
         # IconUri = ''

@@ -1,5 +1,7 @@
 ﻿ConvertFrom-StringData @'
 
+Verb = VERB
+
 Information = Information
 Info = INFO
 
